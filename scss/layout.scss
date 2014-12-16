@@ -1,0 +1,73 @@
+@import "settings.scss";
+@import "functions.scss";
+
+body {
+	background-color: #f9f9f9;
+}
+
+.container {
+	width: rem(960px);
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+// ==========================================================================
+// BANNER
+// ==========================================================================
+
+div.banner {
+	padding: rem(20px) 0;
+	background: url(../img/banner_large.jpg) no-repeat 50% 50%;
+}
+
+body div.banner img.site-logo {
+	float: left;
+}
+
+
+
+.page-title {
+	padding-top: 240px;
+	clear: both;
+	font-size: 60px;
+	color: #fff;
+}
+
+
+// ==========================================================================
+// MAIN
+// ==========================================================================
+
+.main-content {
+	padding: rem(50px) 0;
+}
+
+
+
+
+// ==========================================================================
+// FOOTER
+// ==========================================================================
+
+.site-footer {
+	padding-top: rem(20px);
+	padding-bottom: rem(20px);
+	background-color: #f1f1f1;
+
+	
+
+	p.site-copy,
+	p.site-credit {
+		margin: 0;
+		font-size: 0.9em;
+	}
+
+	p.site-copy {
+		float: left;
+	}
+
+	p.site-credit {
+		float: right;
+	}
+}

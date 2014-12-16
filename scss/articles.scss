@@ -1,0 +1,30 @@
+@import "settings.scss";
+@import "functions.scss";
+
+// ==========================================================================
+// ARTICLE
+// ==========================================================================
+
+
+ul.article-list {
+	margin: 0 0 0 rem(-30px);
+	padding: 0;
+	list-style: none;
+	
+	// Hmmmmm
+	li {
+		float: left;
+		width: 300px;
+		padding: 5px;
+		margin-left: 30px;
+		overflow: hidden;
+
+		div img {
+			width: 300px;
+		}
+
+		div h2 {
+			margin-top: 0;
+		}
+	}
+}

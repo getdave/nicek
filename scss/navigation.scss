@@ -1,0 +1,25 @@
+@import "settings.scss";
+@import "functions.scss";
+
+.nav-primary {
+	float: right;
+	margin-top: rem(30px);
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		float: left;
+	}
+
+	a {
+		display: block;
+		padding: rem(10px) rem(15px);
+		color: #333;
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
