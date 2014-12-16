@@ -9,40 +9,18 @@
 
 ## Objectives
 
-The primary objective of the test is to convert the broken static site into a functioning Responsive web page.  In addition you should aim to address some of the following objectives:
+The primary objective of the test is to convert the "broken" static site into a functioning Responsive web page. There is no PSD, you should use your best judgement to realign the site to be device agnostic.
 
-* Apply browswer vendor prefixes where required by modern browsers - implement autoprefixr via Gulp
-* Improve the general Acccessibility of the page being sure to fix any critical issues
-* Optimise the page for Performance as best as you can.
-* Improve the structure and utility of
+In addition to the primary objective, you should aim to address one or more of the following objectives (in no particular order):
 
+* __Acccessibility__ - improve the general Acccessibility of the page being sure to fix any *critical* issues
+* __Semantics__ - improve the semantics of the HTML.
+* __Performance__ - optimise the page for performance as best as you can.
+* __Responsive Images__ - implement any Responsive Image solution you deem suitable.
+* __CSS Structure and Optimisation:__
+  * make any changes necessary to optimise CSS selectors
+  * remove duplication from the CSS
 
-### Responsive Aspects
+## Extra Credit ;)
 
-* Navigation
-  * care is taken to cater for layout of navigation across all viewports [1 mark]
-  * solution is implemented to "manage" navigation on screens with less real estate [3 marks]
-* Responsive Image approach taken on main banner image:
-  * if solution loads both images - [1 mark]
-  * if solution loads only loads the most appropriate image [2 marks]
-* Picturefill implemented on `<img>` tags - [5 marks]
-
-
-### Apply browswer vendor prefixes
-
-* Suitable prefixes applied automatically to the output CSS via autoprefixr  [2 marks]
-* Suitable prefixes applied by hand to the Sass  [1 mark]
-
-
-### Accessibility
-
-* `<header>`, `<footer>` and `<main>` tags are applied correctly [1 mark]
-* ARIA `role` attributes applied to appropriate elements [1 mark]
-* `alt` attributes applied to images [1 mark]
-
-### Peformance
-
-* Concatante CSS into a single file [1 mark]
-* Move scripts before `</body>` [1 mark]
-* Add `async` to `<script>` tags [2 marks]
-* Optimise images [1 mark]
+If you have extra time, consider implementing enhancements such as animations, event-driven effects, or custom web fonts.

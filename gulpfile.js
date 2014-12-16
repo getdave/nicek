@@ -3,7 +3,9 @@ var gulp        = require('gulp');
 // You might like to use these...
 var sass 		= require('gulp-sass');
 var browserSync = require('browser-sync');
+
 var imagemin 	= require('gulp-imagemin');
+var cssmin 		= require('gulp-cssmin');
 
 
 // Sass
@@ -16,7 +18,7 @@ gulp.task('sass', function () {
 // Static server
 gulp.task('browser-sync', function() {
     browserSync({
-        // hmmmmm - http://www.browsersync.io/docs/gulp/
+        // something missing? try the docs...
     });
 });
 
